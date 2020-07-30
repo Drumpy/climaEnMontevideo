@@ -1,0 +1,50 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+div {
+    background-color: hsl(271, 69%, 31%);
+    width: fit-content;
+    height: fit-content;
+    float: inherit;
+    padding: 10px 10px;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0;
+}
+#ciudad {
+    font-size: medium;
+    color: yellow;
+    font-weight: bold;
+}
+#temp {
+    font-size: xx-large;
+    color: green;
+    font-weight: bolder;
+    animation: blinker 1s infinite;
+}
+
+img {
+    align-content: center;
+    width: 35px;
+    height: 35px;
+}
+
+.txt {
+    color: hsl(271, 69%, 60%);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
