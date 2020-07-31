@@ -3,10 +3,17 @@
     margin: 0;
     padding: 0;
 }
-div {
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
     background-color: hsl(271, 69%, 31%);
-    width: fit-content;
-    height: fit-content;
+}
+
+div {
     float: inherit;
     padding: 10px 10px;
 }
@@ -38,7 +45,7 @@ img {
 }
 
 .container {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     text-align: center;
 }
